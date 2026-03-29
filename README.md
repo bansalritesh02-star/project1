@@ -1,3 +1,3 @@
 # project1
-1. Added First Version of the Crewai Project. SubFolder: latest_ai_development_crew
-
+1. crewai:
+    1. "latest_ai_development_crew": Added First Version of the Crewai Project.
