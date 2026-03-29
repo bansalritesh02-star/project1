@@ -1,0 +1,38 @@
+# Secrets and local env
+.env
+.env.*
+!.env.example
+
+# uv files
+*uv.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.venv/
+venv/
+env/
+*__init__.py
+
+# OS / editor
+.DS_Store
+.idea/
+*.swp
+*.swo
+
+# Optional: generated crew output (uncomment if you don't want reports in git)
+output/
+**/output/
+knowledge/
+
+# Logs and local tooling
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# CrewAI / tracing (if you use local trace files)
+.crewai/
